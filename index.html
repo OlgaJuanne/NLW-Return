@@ -14,29 +14,29 @@
       rel="stylesheet">
     
   </head>
-  <body onscroll="onScroll()" class="menu-expanded">
-    <nav id="navigation" class="scroll">
+  <body onscroll="onScroll()">
+    <nav id="navigation">
       <div class="wrapper">
-        <a class="logo" href="#">
+        <a class="logo" href="#home">
           <svg xmlns="http://www.w3.org/2000/svg" width="133" height="18" fill="none" viewBox="0 0 133 18">
             <path fill="#212529" d="M0 17.088V.288h5.16c2.96 0 5.136.752 6.528 2.256C13.096 4.048 13.8 6.112 13.8 8.736c0 2.576-.704 4.616-2.112 6.12-1.392 1.488-3.568 2.232-6.528 2.232H0Zm2.016-1.68h3.096c1.632 0 2.928-.264 3.888-.792.976-.544 1.672-1.312 2.088-2.304.416-1.008.624-2.2.624-3.576 0-1.408-.208-2.616-.624-3.624C10.672 4.104 9.976 3.328 9 2.784c-.96-.544-2.256-.816-3.888-.816H2.016v13.44Zm20.479 1.968c-1.12 0-2.128-.256-3.024-.768a5.654 5.654 0 0 1-2.136-2.16c-.512-.944-.768-2.048-.768-3.312 0-1.264.264-2.36.792-3.288.528-.944 1.24-1.672 2.136-2.184.912-.512 1.928-.768 3.048-.768s2.128.256 3.024.768c.896.512 1.6 1.24 2.112 2.184.528.928.792 2.024.792 3.288 0 1.264-.264 2.368-.792 3.312a5.604 5.604 0 0 1-2.16 2.16c-.896.512-1.904.768-3.024.768Zm0-1.728c.688 0 1.328-.168 1.92-.504.592-.336 1.072-.84 1.44-1.512.368-.672.552-1.504.552-2.496s-.184-1.824-.552-2.496c-.352-.672-.824-1.176-1.416-1.512a3.78 3.78 0 0 0-1.896-.504c-.688 0-1.328.168-1.92.504-.592.336-1.072.84-1.44 1.512-.368.672-.552 1.504-.552 2.496s.184 1.824.552 2.496c.368.672.84 1.176 1.416 1.512a3.78 3.78 0 0 0 1.896.504Zm14.731 1.728c-1.136 0-2.16-.256-3.072-.768a5.833 5.833 0 0 1-2.136-2.184c-.512-.944-.768-2.04-.768-3.288 0-1.248.256-2.336.768-3.264.528-.944 1.24-1.672 2.136-2.184.912-.528 1.936-.792 3.072-.792 1.408 0 2.592.368 3.552 1.104.976.736 1.592 1.72 1.848 2.952h-2.064a2.602 2.602 0 0 0-1.176-1.704c-.624-.416-1.352-.624-2.184-.624a3.78 3.78 0 0 0-1.896.504c-.592.336-1.072.84-1.44 1.512-.368.672-.552 1.504-.552 2.496s.184 1.824.552 2.496c.368.672.848 1.184 1.44 1.536a3.78 3.78 0 0 0 1.896.504c.832 0 1.56-.2 2.184-.6.624-.416 1.016-1 1.176-1.752h2.064c-.24 1.2-.848 2.176-1.824 2.928-.976.752-2.168 1.128-3.576 1.128Zm13.071-.288c-1.088 0-1.944-.264-2.568-.792-.624-.528-.936-1.48-.936-2.856V6.888H44.73V5.184h2.064l.264-2.856h1.752v2.856h3.504v1.704H48.81v6.552c0 .752.152 1.264.456 1.536.304.256.84.384 1.608.384h1.248v1.728h-1.824Zm10.153.288c-1.12 0-2.127-.256-3.023-.768a5.654 5.654 0 0 1-2.136-2.16c-.512-.944-.768-2.048-.768-3.312 0-1.264.264-2.36.792-3.288.528-.944 1.24-1.672 2.136-2.184.912-.512 1.928-.768 3.048-.768s2.128.256 3.024.768c.896.512 1.6 1.24 2.112 2.184.528.928.792 2.024.792 3.288 0 1.264-.264 2.368-.792 3.312a5.604 5.604 0 0 1-2.16 2.16c-.896.512-1.904.768-3.024.768Zm0-1.728a3.82 3.82 0 0 0 1.92-.504c.593-.336 1.073-.84 1.44-1.512.369-.672.553-1.504.553-2.496s-.184-1.824-.552-2.496c-.352-.672-.824-1.176-1.416-1.512a3.78 3.78 0 0 0-1.896-.504c-.688 0-1.328.168-1.92.504-.592.336-1.072.84-1.44 1.512-.368.672-.552 1.504-.552 2.496s.184 1.824.552 2.496c.368.672.84 1.176 1.416 1.512a3.78 3.78 0 0 0 1.896.504Zm9.26 1.44V5.184h1.824l.168 2.28a4.315 4.315 0 0 1 1.68-1.872c.752-.464 1.68-.696 2.784-.696v2.112h-.552c-.704 0-1.352.128-1.944.384-.592.24-1.064.656-1.416 1.248-.352.592-.528 1.408-.528 2.448v6H69.71Z"/>
             <path fill="#00856F" d="M86.492 17.376c-1.696 0-3.152-.36-4.368-1.08a7.383 7.383 0 0 1-2.808-3.048c-.656-1.312-.984-2.824-.984-4.536 0-1.712.328-3.224.984-4.536.656-1.312 1.592-2.336 2.808-3.072C83.34.368 84.796 0 86.492 0c2.016 0 3.664.504 4.944 1.512 1.296.992 2.104 2.392 2.424 4.2h-3.384c-.208-.912-.656-1.624-1.344-2.136-.672-.528-1.568-.792-2.688-.792-1.552 0-2.768.528-3.648 1.584-.88 1.056-1.32 2.504-1.32 4.344 0 1.84.44 3.288 1.32 4.344.88 1.04 2.096 1.56 3.648 1.56 1.12 0 2.016-.24 2.688-.72.688-.496 1.136-1.176 1.344-2.04h3.384c-.32 1.728-1.128 3.08-2.424 4.056-1.28.976-2.928 1.464-4.944 1.464Zm14.6 0c-1.024 0-1.864-.16-2.52-.48-.656-.336-1.144-.776-1.464-1.32a3.486 3.486 0 0 1-.48-1.8c0-1.104.432-2 1.296-2.688.864-.688 2.16-1.032 3.888-1.032h3.024v-.288c0-.816-.232-1.416-.696-1.8-.464-.384-1.04-.576-1.728-.576-.624 0-1.168.152-1.632.456-.464.288-.752.72-.864 1.296h-3c.08-.864.368-1.616.864-2.256a4.9 4.9 0 0 1 1.968-1.464c.8-.352 1.696-.528 2.688-.528 1.696 0 3.032.424 4.008 1.272.976.848 1.464 2.048 1.464 3.6v7.32h-2.616l-.288-1.92a4.401 4.401 0 0 1-1.488 1.584c-.624.416-1.432.624-2.424.624Zm.696-2.4c.88 0 1.56-.288 2.04-.864.496-.576.808-1.288.936-2.136h-2.616c-.816 0-1.4.152-1.752.456-.352.288-.528.648-.528 1.08 0 .464.176.824.528 1.08.352.256.816.384 1.392.384Zm9.531 2.112V5.184h2.736l.288 2.232a4.918 4.918 0 0 1 1.752-1.824c.752-.464 1.632-.696 2.64-.696v3.24h-.864c-.672 0-1.272.104-1.8.312a2.482 2.482 0 0 0-1.248 1.08c-.288.512-.432 1.224-.432 2.136v5.424h-3.072Zm15.569.288c-1.2 0-2.264-.256-3.192-.768a5.559 5.559 0 0 1-2.184-2.16c-.528-.928-.792-2-.792-3.216 0-1.232.256-2.328.768-3.288a5.687 5.687 0 0 1 2.16-2.232c.928-.544 2.016-.816 3.264-.816 1.168 0 2.2.256 3.096.768a5.407 5.407 0 0 1 2.088 2.112c.512.88.768 1.864.768 2.952 0 .176-.008.36-.024.552 0 .192-.008.392-.024.6h-9.048c.064.928.384 1.656.96 2.184.592.528 1.304.792 2.136.792.624 0 1.144-.136 1.56-.408.432-.288.752-.656.96-1.104h3.12a5.68 5.68 0 0 1-1.128 2.064 5.423 5.423 0 0 1-1.92 1.44c-.752.352-1.608.528-2.568.528Zm.024-9.984a3.23 3.23 0 0 0-1.992.648c-.576.416-.944 1.056-1.104 1.92h5.928c-.048-.784-.336-1.408-.864-1.872-.528-.464-1.184-.696-1.968-.696Z"/>
           </svg>
           
         </a>
-        <div class="menu">
-          
+ <div class="menu">
           <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Sobre</a></li>
+            <li><a onclick="closeMenu()" href="#home">Início</a></li>
+            <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+            <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
           </ul>
+
           <a class="button" href="#">Agende sua consulta</a>
 
           <ul class="social-links">
             <li>
-              <a target="_blank"
-                href="https://www.instagram.com/">
+              <a target="_blank" href="https://instagram.com/maykbrito"
+                >
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                   <path stroke="#FFFAF1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 2H7a5 5 0 0 0-5 5v10a5 5 0 0 0 5 5h10a5 5 0 0 0 5-5V7a5 5 0 0 0-5-5Z"/>
                   <path stroke="#FFFAF1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11.37a4 4 0 1 1-7.914 1.174A4 4 0 0 1 16 11.37Zm1.5-4.87h.01"/>
@@ -44,20 +44,19 @@
               </a>
             </li>
             <li>
-              <a target="_blank"
-                href="http://facebook.com">
+              <a target="_blank" href="http://facebook.com">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                   <path stroke="#FFFAF1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3V2Z"/>
                 </svg>
               </a>
             </li>
             <li>
-              <a target="_blank"
-                href="https://www.youtube.com/">
+              <a target="_blank" href="https://www.youtube.com/">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                   <path stroke="#FFFAF1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2c.312-1.732.466-3.49.46-5.25a29.005 29.005 0 0 0-.46-5.33Z"/>
                   <path stroke="#FFFAF1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9.75 15.02 5.75-3.27-5.75-3.27v6.54Z"/>
-                </svg></a>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -66,11 +65,37 @@
           aria-label="Abrir menu"
           onclick="openMenu()"
           class="open-menu">
-          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 40 40">
-            <path stroke="#FFFAF1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20h20m-20-8h20M18 28h12"/>
+          <svg
+          width="40"
+          height="40"
+          viewBox="0 0 40 40"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10 20H30"
+            stroke="#00856F"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M10 12H30"
+            stroke="#00856F"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M18 28L30 28"
+            stroke="#00856F"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
           </svg>
         </button>
-
         <button 
           aria-expanded="true"
           aria-label="Fechar menu"
@@ -83,36 +108,130 @@
       </div>
     </nav>
 
-    <header class="wrapper">
-      <h4>BOAS-VINDAS A DOCTORCARE 👋</h4>
-      <h1>Assistência médica simplificada para todos </h1>
-      <p>
-        Os médicos da DoctorCare vão além dos sintomas para tratar a causa 
-        raiz de sua doença e proporcionar uma cura a longo prazo.
-      </p>
-      <button>
-        <img src="/assets/whatsapp.png" alt="Simbolo do aplicatido do Whatsapp"/>Agende sua consulta
-      </button>
+    <header id="home">
+      <div class="wrapper">
+        <header>
+          <h4>BOAS-VINDAS A DOCTORCARE 👋</h4>
+          <h1>Assistência médica simplificada para todos</h1>
+        </header>
+        <div class="content">
+          <p>
+          Os médicos da DoctorCare vão além dos sintomas para tratar a causa 
+          raiz de sua doença e proporcionar uma cura a longo prazo.
+          </p>
+          <button>
+            <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.8337 11.6667C13.667 11.5833 12.5837 11.0833 12.417 11C12.2503 10.9167 12.0837 10.9167 11.917 11.0833C11.7503 11.25 11.417 11.75 11.2503 11.9167C11.167 12.0833 11.0003 12.0833 10.8337 12C10.2503 11.75 9.66699 11.4167 9.16699 11C8.75033 10.5833 8.33366 10.0833 8.00033 9.58334C7.91699 9.41668 8.00033 9.25001 8.08366 9.16668C8.16699 9.08334 8.25033 8.91668 8.41699 8.83334C8.50033 8.75001 8.58366 8.58334 8.58366 8.50001C8.66699 8.41668 8.66699 8.25001 8.58366 8.16668C8.50033 8.08334 8.08366 7.08334 7.91699 6.66668C7.83366 6.08334 7.66699 6.08334 7.50033 6.08334C7.41699 6.08334 7.25033 6.08334 7.08366 6.08334C6.91699 6.08334 6.66699 6.25001 6.58366 6.33334C6.08366 6.83334 5.83366 7.41668 5.83366 8.08334C5.91699 8.83334 6.16699 9.58334 6.66699 10.25C7.58366 11.5833 8.75033 12.6667 10.167 13.3333C10.5837 13.5 10.917 13.6667 11.3337 13.75C11.7503 13.9167 12.167 13.9167 12.667 13.8333C13.2503 13.75 13.7503 13.3333 14.0837 12.8333C14.2503 12.5 14.2503 12.1667 14.167 11.8333C14.167 11.8333 14.0003 11.75 13.8337 11.6667ZM15.917 4.08334C12.667 0.833344 7.41699 0.833344 4.16699 4.08334C1.50033 6.75001 1.00033 10.8333 2.83366 14.0833L1.66699 18.3333L6.08366 17.1667C7.33366 17.8333 8.66699 18.1667 10.0003 18.1667C14.5837 18.1667 18.2503 14.5 18.2503 9.91668C18.3337 7.75001 17.417 5.66668 15.917 4.08334ZM13.667 15.75C12.5837 16.4167 11.3337 16.8333 10.0003 16.8333C8.75033 16.8333 7.58366 16.5 6.50033 15.9167L6.25033 15.75L3.66699 16.4167L4.33366 13.9167L4.16699 13.6667C2.16699 10.3333 3.16699 6.16668 6.41699 4.08334C9.66699 2.00001 13.8337 3.08334 15.8337 6.25001C17.8337 9.50001 16.917 13.75 13.667 15.75Z"
+              fill="white"
+            />
+          </svg>Agende sua consulta
+          </button>
 
-      <img 
-        src="/assets/Foto.png" 
-        alt="Mulher negra vestindo moletom verde e sorrindo"/>
+          <img 
+            src="/assets/Foto.png" 
+            alt="Mulher negra vestindo moletom verde e sorrindo"
+          />
+        </div>
 
-      <div class="stats">
-        <div class="stat">
-          <h3>+3.500</h3>
-          <p>Pacientes atendidos</p>
-        </div> 
-        <div class="stat">
-          <h3>+15</h3>
-          <p>Especialistas disponíveis</p>
-        </div>
-        <div class="stat">
-          <h3>+10</h3>
-          <p>Anos no mercado</p>
-        </div>
+        <div class="stats">
+          <div class="stat">
+            <h3>+3.500</h3>
+            <p>Pacientes atendidos</p>
+          </div> 
+          <div class="stat">
+            <h3>+15</h3>
+            <p>Especialistas disponíveis</p>
+          </div>
+          <div class="stat">
+            <h3>+10</h3>
+            <p>Anos no mercado</p>
+          </div>
+          </div>
       </div> 
     </header> 
+
+    <section id="services">
+      <div class="wrapper">
+        <header>
+          <h4>Serviços</h4>
+          <h2>Como podemos ajudá-lo a se sentir melhor?</h2>
+        </header>
+        <div class="content">
+          <div class="cards">
+          <div class="card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
+              <path stroke="#00856F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m17.091 8.182-7 7L6.909 12"/>
+            </svg>
+            <h3>Problemas digestivos</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</p>
+          </div>
+        
+          <div class="card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
+              <path stroke="#00856F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m17.091 8.182-7 7L6.909 12"/>
+            </svg>
+            <h3>Bem-estar mental</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</p>
+          </div>
+        
+          <div class="card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
+              <path stroke="#00856F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m17.091 8.182-7 7L6.909 12"/>
+            </svg>
+            <h3>Cuidados Pediátricos</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</p>
+          </div>
+          <div class="card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
+              <path stroke="#00856F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m17.091 8.182-7 7L6.909 12"/>
+            </svg>
+            <h3>Autoimune e Inflamação</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</p>
+          </div>
+          <div class="card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
+              <path stroke="#00856F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m17.091 8.182-7 7L6.909 12"/>
+            </svg>
+            <h3>Saúde do Coração</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrapper">
+        <header>
+          <h4>Sobre Nós</h4>
+          <h2>Entenda quem somos e por que existimos</h2> 
+        </header>
+
+        <div class="content">
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+          </p>
+
+          <img src="assets/doutor-feliz-segurando-prancheta-com-pacientes.png" 
+            alt="Doutor feliz segurando prancheta com pacientes" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ScrollReveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
     
     <script src="main.js"></script>
   </body>
