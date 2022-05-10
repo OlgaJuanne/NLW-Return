@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta  name="viewport" content="width=device-width,initial-scale=1.0"/>
     <title>DoctorCare</title>
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     
     <link rel="stylesheet" href="./style.css"/>
 
@@ -74,6 +79,8 @@
               href="#home">Início</a></li>
             <li><a onclick="closeMenu()" 
               href="#services">Serviços</a></li>
+            <li><a onclick="closeMenu()" 
+              href="#testimonials">Depoimentos</a></li>
             <li><a onclick="closeMenu()" 
               href="#about">Sobre</a></li>
           </ul>
@@ -267,6 +274,72 @@
         </div>
       </div>
     </section>
+    <!-- Testimonials -->
+    <section class="section" id="testimonials">
+      <div class="wrapper">
+        <header>
+          <h4>DEPOIMENTOS</h4>
+          <h2 class= "title">O que os clientes dizem sobre o DoctorCare</h2>
+        </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+                <div class="testimonial swiper-slide">
+                    <blockquote>
+                        <p>
+                            <span>&rdquo;</span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque 
+                            impedit id eos tempora eius temporibus dolorem, eveniet corporis 
+                            possimus natus perspiciatis fuga culpa consequuntur dolorum 
+                            dignissimos exercitationem alias, at commodi.
+                        </p>
+                        <cite>
+                            <img
+                            src="./assets/stephen-audu.jpg" 
+                            alt="Foto de Stephen Audu"/>
+                            Stephen Audu
+                        </cite>
+                    </blockquote>                 
+                </div>
+                <div class="testimonial swiper-slide">
+                    <blockquote>
+                        <p>
+                          <span>&rdquo;</span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque 
+                        impedit id eos tempora eius temporibus dolorem, eveniet corporis 
+                        possimus natus perspiciatis fuga culpa consequuntur dolorum 
+                        dignissimos exercitationem alias, at commodi.
+                        </p>
+                        <cite>
+                          <img 
+                            src="./assets/mehrab-zahedbeigi.jpg" 
+                            alt="Foto de Mehrab Zehedbeigi"/>
+                            Mehrab Zehedbeigi
+                        </cite>
+                    </blockquote>
+                </div>
+             <!--   <div class="testimonial swiper-slide">
+                  <blockquote>
+                      <p>
+                          <span>&rdquo;</span>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque 
+                          impedit id eos tempora eius temporibus dolorem, eveniet corporis 
+                          possimus natus perspiciatis fuga culpa consequuntur dolorum 
+                          dignissimos exercitationem alias, at commodi.
+                      </p>
+                      <cite>
+                          <img 
+                          src="./assets/mery-khachatryan.jpg" 
+                          alt="Foto de Mery Khachatryan"/>
+                          Mery Khachatryan
+                      </cite>
+                  </blockquote>                 
+              </div> -->    
+            </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>                     
+      </div>        
+    </section> 
 
     <section id="about">
       <div class="wrapper">
@@ -449,6 +522,9 @@
         />
       </svg>   
     </a>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- ScrollReveal-->
     <script src="https://unpkg.com/scrollreveal"></script>

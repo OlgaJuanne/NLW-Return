@@ -7,6 +7,7 @@ function onScroll() {
 
   activateMenuAtCurrentSection(home)
   activateMenuAtCurrentSection(services)
+  activateMenuAtCurrentSection(testimonials)
   activateMenuAtCurrentSection(about)
   activateMenuAtCurrentSection(contact)
 }
@@ -48,10 +49,23 @@ function activateMenuAtCurrentSection(section) {
   if (sectionBoundaries){
     menuElement.classList.add('active')
   }
-
-
 }
 
+/* Testimonials carousel slider swiper */
+const swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1,
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  mousewheel: true,
+  keyboard: true,
+  breakpoints: {
+    992: {
+      slidesPerView:2,
+      setWrapperSize:true
+    }
+  }
+}) 
 
 function showNavOnScroll() {
   if (scrollY > 0){
@@ -89,6 +103,11 @@ ScrollReveal({
 #services, 
 #services header,
 #services .card,
+#testimonials header, 
+#testimonials .testimonials
 #about,
 #about header,
 #about .content`)
+
+
+// #MissionAccomplished ///
