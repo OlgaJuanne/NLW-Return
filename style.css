@@ -6,7 +6,7 @@
 }
 
 :root {
-  --hue: 190;
+  --hue: 140;
   --primary-color: hsl(var(--hue), 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
@@ -544,6 +544,7 @@ footer .social-links {
 /* BACK TO TOP */
 #backToTopButton {
   position: fixed;
+  
   bottom: 1rem;
   right: 2.5rem;
 
@@ -552,7 +553,10 @@ footer .social-links {
 
   transform: translateY(100%);
   transition: 200ms;
+
+  z-index: 100; /* Sobre posição de div */
 }
+
 
 #backToTopButton.show {
   opacity: 1;
@@ -780,6 +784,7 @@ footer .social-links {
   /*======Testimonials ============================== */
 
   #testimonials .container {
+    position: fixed;
     margin-left: auto;
     margin-right: auto;
   }
